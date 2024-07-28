@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>My Portfolio</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!-- Desktop nav -->
+  <nav id="desktop-nav">
+    <div class="logo">Tarina Afroz Muna</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contacts">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hamburger nav -->
+  <nav id="hamburger-nav">
+    <div class="logo">Tarina Afroz Muna</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contacts" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+
+  <section id="profile">
+    <div class="profile__pic-container">
+      <img src="profile-pic.jpg" alt="Tarina Muna profile picture" class="profile-pic">
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello I'm</p>
+      <h1 class="title">Tarina Afroz Muna</h1>
+      <p class="section__text__p2">Computer Science Student</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('Tarina-Muna-Resume.pdf')">
+          Download CV
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='#contacts'">Contact Info</button>
+      </div>
+      <div id="socials-container">
+        <img src="linked-logo.png" alt="My LinkedIn Profile" class="icon"
+          onclick="location.href ='https://www.linkedin.com/in/tarina-muna-44917b2a7?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BTEtFiP5pSy2Ego6x1Wsmow%3D%3D'" />
+        <img src="github-icon.png" alt="My github Profile" class="icon"
+          onclick="location.href ='https://github.com/tarinam2789/tarinam2789.git '" />
+        <img src="instagram.jpeg" alt="My Instagram Profile" class="icon"
+          onclick="location.href ='https://www.instagram.com/f_scenarios3?igsh=dndiMGJ1b3RvbXQ2&utm_source=qr'" />
+        <img src="tiktok.jpg" alt="My tiktok Profile" class="icon"
+          onclick="location.href ='https://www.tiktok.com/@tarinam2789?_t=8oPGGqdH96V&_r=1'" />
+        <img src="facebook.webp" alt="My facebook Profile" class="icon"
+          onclick="location.href ='https://www.facebook.com/tarinaafroz.muna?mibextid=LQQJ4d'" />
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <p class="section__text__p1">Get to know more</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="about-me.jpg" alt="Profile pic" class="about-pic" />
+      </div>
+
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="experience.webp" alt="Experience icon" class="icon" />
+            <h3>Experience</h3>
+            <p>2+ years <br />customer service</p>
+          </div>
+          <div class="details-container">
+            <img src="education.webp" alt="Experience icon" class="icon" />
+            <h3>Education</h3>
+            <p>Bachelor Degree <br />2022-2026</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>  My name is Tarina Afroz Muna.
+   I am currently pursuing a Bachelor of Science in Computer                                Science at Queens College. 
+  Since my junior year of high school, I have dreamed of becoming a                             software engineer. 
+  I am passionate about creating innovative solutions and continuously                  learning in the ever-evolving tech landscape, 
+              driving me to turn my aspirations into reality.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <!-- <h2 class="experience-sub-title">Programming <br/> Languages</h2> -->
+          <div class="article-container">
+            <article>
+              <img src="HTML.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>HTML</h3>
+              </div>
+            </article>
+
+            <article>
+              <img src="CSS.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>CSS</h3>
+              </div>
+            </article>
+
+            <article>
+              <img src="java.webp" alt="Experience icon" class="icon" />
+              <div>
+                <h3>JAVA</h3>
+              </div>
+            </article>
+
+            <article>
+              <img src="c++.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>C++</h3>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="details-container">
+          <!-- <h2 class="experience-sub-title">Basics</h2> -->
+          <div class="article-container">
+            <article>
+              <img src="communication.jpg" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Communication</h3>
+              </div>
+            </article>
+
+            <article>
+              <img src="problem-solving.jpg" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Problem Solving</h3>
+              </div>
+            </article>
+
+            <article>
+              <img src="multitasking.webp" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Multitasking</h3>
+              </div>
+            </article>
+
+            <article>
+              <img src="customer-service.webp" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Customer Service</h3>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="cuny-logo.png" alt="project 1" class="project-img" />
+            <h2 class="experience-sub-title project-title">Cuny  <br> Overview</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn"
+                onclick="location.href= 'https://replit.com/@YukiLi5/CUNY-Overview'">
+                Replit
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="resturant.jpg" alt="project 2" class="project-img" />
+            <h2 class="experience-sub-title project-title">Restaurant Recommendation</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn"
+                onclick="location.href= 'https://replit.com/@tarinam2789/RecommendationWebsite'">
+                Replit
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacts">
+    <p class="section__text__p1">Get In Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="email.webp" alt="Email Icon" class="icon" />
+        <h2>Email</h2>
+        <a href="mailto:tarinaafrozm@gmail.com.com">
+          Send a message
+        </a>
+      </div>
+
+      <div class="contact-info-container">
+        <img src="linked-logo.png" alt="LinkedIn Icon" class="icon" />
+        <h2>LinkedIn</h2>
+        <a href="https://www.linkedin.com/in/tarina-muna-44917b2a7">
+          Send a message
+        </a>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
+
+
